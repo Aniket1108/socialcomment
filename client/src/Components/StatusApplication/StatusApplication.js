@@ -31,9 +31,9 @@ const StatusApplication = () => {
         <div className="StatusApplication">
             <p className="title">Total Application</p>
             <div className="bar white"><GoPrimitiveDot /> <p>Applications</p> <Progress done="70"/></div>
-            <div className="bar blue"><GoPrimitiveDot /> <p>Applications</p> <Progress done="70"/></div>
-            <div className="bar red"><GoPrimitiveDot /> <p>Applications</p> <Progress done="70"/></div>
-            <div className="bar smoke"><GoPrimitiveDot /> <p>Applications</p> <Progress done="70"/></div>
+            <div className="bar blue"><GoPrimitiveDot /> <p>Shortlisted</p> <Progress done="70"/></div>
+            <div className="bar red"><GoPrimitiveDot /> <p>Rejected</p> <Progress done="70"/></div>
+            <div className="bar smoke"><GoPrimitiveDot /> <p>On hold</p> <Progress done="70"/></div>
             <div className="bar purple"><GoPrimitiveDot /> <p>Applications</p> <Progress done="70"/></div>
         </div>
     )

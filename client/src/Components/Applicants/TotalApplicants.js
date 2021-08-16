@@ -2,6 +2,7 @@ import React from 'react'
 
 
 import { BsThreeDots } from 'react-icons/bs';
+import { ImArrowUpRight } from 'react-icons/im';
 
 const TotalApplicants = () => {
     return (
@@ -9,7 +10,7 @@ const TotalApplicants = () => {
             <div className="card">
                 <p>Total Applications</p>
                 <p className="count">7956</p>
-                <p className="percent">3.59%</p>
+                <p className="percent"><ImArrowUpRight/>3.59%</p>
             </div>
             <div className="progress">
                 <i><BsThreeDots/></i>

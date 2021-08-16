@@ -1,6 +1,7 @@
 import React from 'react'
 import "./applicants.scss"
 import { BsThreeDots } from 'react-icons/bs';
+import { ImArrowUpRight } from 'react-icons/im';
 
 const Shortlisted = () => {
     return (
@@ -8,8 +9,8 @@ const Shortlisted = () => {
             <div className="card-body">
                 <div className="card">
                     <p>Shortlisted Candidates</p>
-                    <p className="count">7956</p>
-                    <p className="percent">3.59%</p>
+                    <p className="count">4658</p>
+                    <p className="percent"><ImArrowUpRight/>0.6%</p>
                 </div>
                 <div className="progress">
                     <i><BsThreeDots /></i>

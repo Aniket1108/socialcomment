@@ -3,14 +3,15 @@ import "./applicants.scss"
 import Progress from "./progress"
 
 import { BsThreeDots } from 'react-icons/bs';
+import { ImArrowDownLeft } from 'react-icons/im';
 
 const Application = () => {
     return (
         <div className="Application">
             <div className="card">
                 <p>Total Applications</p>
-                <p className="count">7956</p>
-                <p className="percent">3.59%</p>
+                <p className="count">1501</p>
+                <p className="percent"><ImArrowDownLeft/>0.4%</p>
             </div>
             <div className="progress">
                 <i><BsThreeDots /></i>
