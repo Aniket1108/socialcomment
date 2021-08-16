@@ -1,0 +1,36 @@
+.RecivedApplication {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 68%;
+
+    padding: 20px 20px 0 20px; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .info-data{
+        display: flex;
+        justify-content: space-between;
+
+        color: #fff;
+
+        margin-bottom: 25px;
+    }
+    .data{
+        display: flex;
+        align-items: center;
+        p{
+            margin-right: 15px;
+        }
+        .download{
+            display: flex;
+            align-items: center;
+            i{
+                line-height: 100%;
+                margin-right: 10px;
+            }
+        }
+    }
+
+}

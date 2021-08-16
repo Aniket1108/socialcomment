@@ -1,0 +1,33 @@
+
+
+.OpenPosition {
+    width: 30%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        position: absolute;
+        top: 57%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 00.8rem;
+    }
+
+    .position {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        width: 100%;
+
+        p {
+            font-size: 0.8rem;
+        }
+    }
+}

@@ -1,0 +1,80 @@
+.Referrals{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 68%;
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #fff;
+
+        
+    }
+    .stats{
+        display: flex;
+        align-items: center;
+        
+        .highlight{
+            color: #fe5260;
+        }
+        i{
+            font-size: 1.6rem;
+            line-height: 100%;
+            margin-right: 10px;
+            color: #fe5260;
+        }
+    }
+
+    .middle{
+        display: flex;
+        justify-content: space-between;
+
+        height: 40%;
+    }
+
+    .seperator{
+        width: 4px;
+        height: 100%;
+        background-color: #222328;
+    }
+    .status{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        color: #fff;
+        .highlight{
+            color: #446b8e;
+        }
+        
+    }
+
+    .bottom{
+        display: flex;
+        justify-content: space-around;
+        button{
+            width: 40%;
+            height: 40px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            color: #fff;
+            
+        }
+        .new{
+            background-color: #2e9cfd;
+        }
+        .pause{
+            background-color: #fe5260;
+        }
+    }
+
+}

@@ -1,0 +1,99 @@
+
+.arrowsec {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    color: white;
+    font-size: 1.2rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #222328;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.New-applicants {
+    position: relative;
+    width: 400px;
+    height: 100%;
+    // min-height: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    transition: 0.4s all;
+    background-color: #1f2025;
+    margin-left: 25px;
+    border-top-left-radius: 10px;
+    
+    
+    .title{
+        margin-top: 25px;
+        color: white;
+    }
+    
+    img {
+        padding-left: 50px;
+        width: 90%;
+    }
+
+
+    .arrow {
+        position: absolute;
+        top: 25px;
+        left: -20px;
+        color: white;
+        font-size: 1.2rem;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #222328;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: rotate(180deg);
+    }
+    h4 {
+        text-align: center;
+    }
+    .application-data {
+        background-color: #222328;
+        border-top-left-radius: 35px;
+        
+    }
+    .card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        height: 80px;
+        margin: auto;
+        color: #fff;
+
+        h3 {
+            font-weight: 400;
+        }
+        p {
+            font-size: 0.7rem;
+            span {
+                color: #1b4d7a;
+            }
+        }
+
+        .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .icon.left {
+            font-size: 1.8rem;
+        }
+        .icon.right {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #2b2e38;
+        }
+        .user-info {
+            width: 60%;
+        }
+    }
+}

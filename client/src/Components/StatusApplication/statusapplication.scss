@@ -1,0 +1,72 @@
+
+.StatusApplication {
+    width: 30%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+
+    padding: 20px;
+
+    .title{
+        color: white;
+    }
+    .progress {
+        background-color: #424345;
+        border-radius: 20px;
+        // position: relative;
+        margin: 15px 0;
+        height: 10px;
+        width: 50%;
+    }
+
+    .bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .bar.white {
+        color: #fff;
+        .progress-done{
+            background-color: #fff;
+        }
+    }
+    .bar.blue{
+        color: #3682c2;
+        .progress-done {
+            background-color: #3682c2;
+        }
+    }
+    .bar.red{
+        color: #ff5a5c;
+        .progress-done {
+            background-color: #ff5a5c;
+        }
+    }
+    .bar.smoke{
+        color: #ceb9d9;
+        .progress-done {
+            background-color: #ceb9d9;
+        }
+    }
+    .bar.purple{
+        color: #6444b3;
+        .progress-done {
+            background-color: #6444b3;
+        }
+    }
+    .progress-done {
+        background: #424345;
+        border-radius: 20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 0;
+        opacity: 0;
+        transition: 1s ease 0.3s;
+    }
+    
+    
+}

@@ -1,0 +1,44 @@
+.Dashboard {
+    display: flex;
+}
+
+.main {
+    margin-left: 95px;
+    min-height: 100vh;
+    min-width: calc(100% - 95px);
+
+}
+
+.division {
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+    margin-top: 25px;
+
+    .left-section {
+        width: 90%;
+    }
+}
+
+.First-Row {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+
+
+}
+
+.Second-Row, .Third-Row {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 30px;
+}
+
+
+
+
